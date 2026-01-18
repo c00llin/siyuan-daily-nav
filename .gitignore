@@ -3,6 +3,7 @@ dist/
 *.log
 .DS_Store
 .sync*
+.claude/
 .idea/
 .vscode/
 *.swp
