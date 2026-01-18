@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  plugin-dev:
+    build: .
+    container_name: siyuan-plugin-dev
+    volumes:
+      # Mount the entire project directory
+      - .:/workspace
+      # Persist node_modules to avoid re-downloading
+      - node_modules:/workspace/node_modules
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+
+volumes:
+  node_modules:
