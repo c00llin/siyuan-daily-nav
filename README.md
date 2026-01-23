@@ -61,10 +61,7 @@ npm run build
 ## Installation
 
 1. Build the plugin (see above)
-2. Copy the entire `dist/` folder to your SiYuan plugins directory:
-   - Windows: `{workspace}/data/plugins/`
-   - macOS: `{workspace}/data/plugins/`
-   - Linux: `{workspace}/data/plugins/`
+2. Copy the entire `dist/` folder to your SiYuan plugins directory `{workspace}/data/plugins/`
 3. Rename the `dist` folder to `siyuan-daily-nav`
 4. Restart SiYuan or reload plugins
 
@@ -109,17 +106,13 @@ You can also find these commands in the Command Palette (Ctrl+P / ⌘P).
 - Uses the fallback notebook you configured
 - Creates notes with that notebook's format
 
-## Development
-
-See [Building the Plugin](#building-the-plugin) section above for development setup.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT - See [LICENSE](LICENSE) file for details.
+MIT - See [LICENSE](https://github.com/c00llin/siyuan-daily-nav/blob/main/LICENSE) file for details.
 
 ## Changelog
 

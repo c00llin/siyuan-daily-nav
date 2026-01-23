@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <!-- Background -->
+  <rect width="160" height="160" rx="20" fill="#4A90D9"/>
+
+  <!-- Calendar body -->
+  <rect x="20" y="32" width="120" height="108" rx="8" fill="white"/>
+
+  <!-- Calendar header -->
+  <rect x="20" y="32" width="120" height="32" rx="8" fill="#3A7BC8"/>
+  <rect x="20" y="52" width="120" height="12" fill="#3A7BC8"/>
+
+  <!-- Calendar rings -->
+  <rect x="44" y="22" width="10" height="24" rx="5" fill="#2D5A8A"/>
+  <rect x="106" y="22" width="10" height="24" rx="5" fill="#2D5A8A"/>
+
+  <!-- Left arrow -->
+  <polygon points="32,100 52,82 52,118" fill="#3A7BC8"/>
+
+  <!-- Center day (highlighted) -->
+  <circle cx="80" cy="100" r="16" fill="#4A90D9"/>
+  <text x="80" y="106" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">15</text>
+
+  <!-- Right arrow -->
+  <polygon points="128,100 108,82 108,118" fill="#3A7BC8"/>
+</svg>
