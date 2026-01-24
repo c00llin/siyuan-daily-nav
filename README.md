@@ -116,6 +116,9 @@ MIT - See [LICENSE](https://github.com/c00llin/siyuan-daily-nav/blob/main/LICENS
 
 ## Changelog
 
+### v0.0.2 (Small things for first release)
+- New release purely for release procedure marketplace.
+
 ### v0.0.1 (Initial Release)
 - Navigate between daily notes with keyboard shortcuts
 - Auto-create missing daily notes
